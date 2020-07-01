@@ -7,7 +7,7 @@ export default DS.Model.extend({
     apellidos: DS.attr("string"),
     fecha: DS.attr("string"),
 
-
+    //Validaciones-Mantenimiento
     validaciones1: {
         cedula: [validatePresence(true)],
         nombre: [validatePresence(true)],
