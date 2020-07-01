@@ -1,0 +1,9 @@
+<p>  
+  {{#link-to 'cargarEstudiante' tagName='button' class="button"}}Cargar un Estudiante nuevo{{/link-to}}
+</p>
+
+{{#each model as |representante|}}
+  {{demo-representante representante=representante}}
+{{else}}
+  <p>No hay discos cargados.</p>
+{{/each}}

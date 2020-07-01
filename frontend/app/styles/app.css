@@ -1,0 +1,125 @@
+body {
+    padding: 1em;
+    background: khaki;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+label {
+    font-family: monospace;
+    padding: 8px;
+    font-size: x-large;
+}
+
+.demo-representante-container {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    background-color: floralwhite;
+    vertical-align: top;
+    margin: 3px;
+    border-style: inset;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.demo-representante-container .cedula {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.demo-representante-container .contenid-second {
+    color: gray;
+    margin: 2px;
+    font-family: monospace;
+}
+
+p.titulo {
+    font-family: cursive;
+}
+
+div#ember181 {}
+
+p.Titulo_principal {
+    font-size: x-large;
+    padding-left: 38%;
+}
+
+body {
+    padding: 1em;
+    background: aliceblue;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+label {
+    font-family: monospace;
+    padding: 8px;
+    font-size: x-large;
+}
+
+.demo-representante-container {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #C0D;
+    padding: 0.5em;
+    background-color: floralwhite;
+    vertical-align: top;
+    margin: 3px;
+    border-style: inset;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.demo-representante-container .cedula {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.demo-representante-container .contenid-second {
+    color: gray;
+    margin: 2px;
+    font-family: monospace;
+}
+
+p.titulo {
+    font-family: cursive;
+}
+
+div#ember181 {}
+
+p.Titulo_principal {
+    font-size: xx-large;
+    padding-left: 38%;
+    text-indent: 30px;
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+
+button {
+    background-color: darkslategrey;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}

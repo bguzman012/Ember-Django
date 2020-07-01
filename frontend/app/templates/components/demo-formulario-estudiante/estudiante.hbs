@@ -1,0 +1,24 @@
+{{yield}}
+
+{{#validated-form
+  model        = (changeset model model.validaciones)
+  on-submit    = (action "submit")
+  submit-label = 'Save' as |f|}}
+    
+  {{f.input label="Cedula " name="cedula"}}
+  {{f.input label="Nombre " name="nombre"}}
+  {{f.input label="Apellidos " name="apellidos"}}
+  {{f.input label="Fecha nacimiento " name="fecha"}}
+
+
+  {{#if errors}}
+    <div class="ui negative message">
+      {{#each errors as |error|}}
+        <p><strong>{{error.campo}}</strong> - {{error.detalle}}</p>
+      {{/each}}
+    </div>
+  {{/if}}
+
+  {{f.submit label="Guardar"}}
+
+{{/validated-form}}
